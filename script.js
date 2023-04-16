@@ -12,7 +12,6 @@ function fibonacci(num) {
 		a = b;
 		b = c
 	}
-	return num
 }
 
 module.exports = fibonacci;
