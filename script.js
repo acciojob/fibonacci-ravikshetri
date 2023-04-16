@@ -1,15 +1,15 @@
 function fibonacci(num) {
-// your code here
-	let a = 0
-	let b = 1;
-	console.log(a)
-	console.log(b)
-	for(let i=0; i<num; i++){
-		let c = a+b;
-		console.log(c)
-		a = b;
-		b = c
-	}
+// your code here\
+	let fib = [];
+     fib[0] = 0;
+     fib[1] = 1;
+  
+  for (let i = 2; i <= n; i++) {
+    fib[i] = fib[i - 1] + fib[i - 2];
+  }
+
+  return fib;
+	
 }
 
 module.exports = fibonacci;
